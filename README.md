@@ -1,6 +1,11 @@
 # Smart-House-Price-Predictor
 Build an AI that can predict house prices better than simple math.
 
+**Used Dataset Attached**
+
+Live-Demo Link: https://replit.com/@nilay1516412824/Smart-House-Price-Predictor-2
+
+Demo Video: 
 
 
 **Setup Guide**
