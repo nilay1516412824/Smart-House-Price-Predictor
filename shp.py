@@ -1,4 +1,4 @@
-# house_price_predictor.py# smart_house_price_predictor.py
+# smart_house_price_predictor.py
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -48,7 +48,7 @@ print("\nModel Performance:")
 for name, metrics in results.items():
     print(f"{name}: MSE={metrics['MSE']:.2f}, R2={metrics['R2 Score']:.2f}")
 
-print(f"\n✅ Best Model: {best_name} (R²={best_score:.2f})")
+print(f"\n Best Model: {best_name} (R²={best_score:.2f})")
 
 # 7. Save Best Model
 joblib.dump(best_model, "best_house_price_model.pkl")
@@ -57,4 +57,5 @@ joblib.dump(best_model, "best_house_price_model.pkl")
 sample_house = np.array([[2000, 3, 8, 10]])  # Size=2000, Rooms=3, Location=8, Age=10
 predicted_price = best_model.predict(sample_house)[0]
 print(f"\nPredicted Price for sample house: ${predicted_price:,.2f}")
+
 
