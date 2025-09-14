@@ -5,7 +5,7 @@ Build an AI that can predict house prices better than simple math.
 
 Live-Demo Link: https://replit.com/@nilay1516412824/Smart-House-Price-Predictor-2
 
-Demo Video: 
+Demo Video: https://www.loom.com/share/b7526dd1bb4747e49e025862cc8c180b?sid=a77ec1fe-2581-4ab3-8f58-362e3b0e8461
 
 
 **Setup Guide**
